@@ -39,25 +39,22 @@ const Page = () => {
 
               <Box textAlign="justify">
                 <Heading size="xl" mb={3}>
-                  👋 Hey there
+                  👋 Hey...
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
-                  software developer. I specialize in{" "}
-                  <span className="tech">Web Development</span>, crafting
-                  seamless user experiences and robust backend solutions. With a
-                  knack for problem-solving, I thrive on creating elegant code
-                  that makes an impact. I&apos;m always exploring new tools and
-                  techniques to stay at the forefront of the ever-evolving tech
-                  landscape.
+                  I&apos;m <span className="name">Sai Vittal</span>, an
+                  enthusiastic software developer. My expertise lies in{" "}
+                  <span className="tech">Full Stack Development</span>, where
+                  I'm dedicated to creating smooth user experiences and robust
+                  backend solutions. I take pride in my problem-solving skills
+                  and strive to write elegant code that truly makes an impact.
+                  Constantly exploring new tools and techniques keeps me ahead
+                  in the ever-evolving tech landscape. Let's embark on this
+                  coding journey together!
                 </Text>
+
                 <br />
-                <Text>
-                  📫 Open to collaborations and exciting projects, I&apos;m
-                  eager to connect with fellow developers and tech enthusiasts.
-                  Let&apos;s build something amazing together!
-                </Text>
                 <Text>
                   Happy coding! 🖥️
                   <br />

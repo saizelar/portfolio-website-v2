@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Developer", "Coder", "Tech Blogger", "Tech Enthusiast"],
+      strings: ["Developer", "Coder", "Tech Enthusiast"],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,
@@ -77,24 +77,24 @@ export default function Home() {
               flexDirection={["column", "column", "row"]}
             >
               <Heading
-                fontFamily="Black Ops One"
+                fontFamily="Quicksand"
                 fontSize={["2.5rem", "3.7rem"]}
               >
-                Masood Akhtar
+                Sai Vittal
               </Heading>
 
               <Heading
-                fontFamily="Black Ops One"
+                fontFamily="Quicksand"
                 fontSize={["2.5rem", "3.7rem"]}
                 ml={[null, "1rem"]}
               >
-                Vaheed
+                Sirimamidi
               </Heading>
             </Flex>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={600}>
             <Heading my={3} size="lg" fontFamily="Righteous">
-              I &apos;m <span className="typed-text" ref={typedTextRef}></span>
+              I &apos;m a <span className="typed-text" ref={typedTextRef}></span>
             </Heading>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={700}>

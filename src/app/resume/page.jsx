@@ -13,7 +13,7 @@ const Resume = () => {
     <>
       <Center>
         <Box width={["90vw", "90vw", "80vw"]} height="100%" marginTop="2rem" marginBottom="4rem">
-        <Button as="a" href="/files/vaheed_cv.pdf" colorScheme="teal" size="sm" download="Masood_Akhtar_Vaheed_CV">
+        <Button as="a" href="/files/Sai_Vittal.pdf" colorScheme="teal" size="sm" download="SaiVittal_Resume">
               Download&nbsp;
               <AiOutlineDownload fill="black"/>
         </Button>

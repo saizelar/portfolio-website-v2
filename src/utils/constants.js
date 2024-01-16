@@ -10,7 +10,11 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTwitter,
+  FaJava,
+  FaLinux
 } from "react-icons/fa";
+
+import {RiOpenaiFill} from "react-icons/ri";
 
 import {
   TbBrandTypescript,
@@ -19,13 +23,18 @@ import {
   TbBrandRedux,
   TbBrandBootstrap,
 } from "react-icons/tb";
-import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoJquery, BiLogoPostgresql, BiLogoGmail } from "react-icons/bi";
 import {
   SiPug,
   SiExpress,
   SiPostman,
   SiGnubash,
   SiNextdotjs,
+  SiPowerapps,
+  SiPowerautomate,
+  SiPowerbi,
+  SiPowervirtualagents,
+  SiPowerpages
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
 import { FaHashnode } from "react-icons/fa6";
@@ -38,6 +47,7 @@ import {
   BsMarkdown,
 } from "react-icons/bs";
 import { GiArchiveResearch, GiArtificialIntelligence } from "react-icons/gi";
+import { GrMysql } from "react-icons/gr";
 import { FcElectronics } from "react-icons/fc";
 
 export const links = [
@@ -57,72 +67,45 @@ export const interestsData = [
     icon: BsCodeSlash,
   },
   {
+    interest: "Software Development",
+    icon: AiFillCode,
+  },
+  {
+    interest: "Artificial Intelligence",
+    icon: RiOpenaiFill,
+  },
+  {
     interest: "Tech Blog",
     icon: FaHashnode,
-  },
-  {
-    interest: "Internet of Things",
-    icon: FcElectronics,
-  },
-  {
-    interest: "Market Research",
-    icon: GiArchiveResearch,
   },
   {
     interest: "Visualization",
     icon: BsFileBarGraph,
   },
-  {
-    interest: "Software Development",
-    icon: AiFillCode,
-  },
-  {
-    interest: "Robotics",
-    icon: BsRobot,
-  },
-  {
-    interest: "Web Scraping",
-    icon: BsGlobe,
-  },
 ];
 
 export const skillsData = [
   {
-    name: "HTML5",
-    icon: FaHtml5,
+    name: "C/C++",
+    icon: TbBrandCpp,
   },
   {
-    name: "CSS3",
-    icon: FaCss3,
+    name: "Java",
+    icon: FaJava,
+  },
+  {
+    name: "Python",
+    icon: FaPython,
   },
   {
     name: "Javascript",
     icon: TbBrandJavascript,
   },
   {
-    name: "Jquery",
-    icon: BiLogoJquery,
+    name: "Linux",
+    icon: FaLinux,
   },
-  {
-    name: "Typescript",
-    icon: TbBrandTypescript,
-  },
-  {
-    name: "SASS",
-    icon: FaSass,
-  },
-  {
-    name: "Bootstrap",
-    icon: TbBrandBootstrap,
-  },
-  {
-    name: "C/C++",
-    icon: TbBrandCpp,
-  },
-  {
-    name: "Python",
-    icon: FaPython,
-  },
+
   {
     name: "ReactJS",
     icon: FaReact,
@@ -132,28 +115,32 @@ export const skillsData = [
     icon: SiNextdotjs,
   },
   {
-    name: "Redux",
-    icon: TbBrandRedux,
-  },
-  {
     name: "NodeJs",
     icon: FaNodeJs,
-  },
-  {
-    name: "PugJs",
-    icon: SiPug,
   },
   {
     name: "Express",
     icon: SiExpress,
   },
   {
-    name: "Docker",
-    icon: FaDocker,
+    name: "MySQL",
+    icon: GrMysql,
   },
   {
-    name: "Postgres",
-    icon: BiLogoPostgresql,
+    name: "Power Apps",
+    icon: SiPowerapps,
+  },
+  {
+    name: "Power Automate",
+    icon: SiPowerautomate,
+  },
+  {
+    name: "Power BI",
+    icon: SiPowerbi,
+  },
+  {
+    name: "Power Virtual Agents",
+    icon: SiPowervirtualagents,
   },
   {
     name: "Postman",
@@ -169,24 +156,16 @@ export const skillsData = [
   },
   {
     name: "ChatGPT",
-    icon: GiArtificialIntelligence,
-  },
-  {
-    name: "Bash",
-    icon: SiGnubash,
-  },
-  {
-    name: "Markdown",
-    icon: BsMarkdown,
+    icon: RiOpenaiFill,
   },
 ];
 
 export const workData = [
   {
-    company: "1Digitalstack.ai",
-    designation: "Software Engineer 1",
-    duration: "March 2022 - Present",
-    companyImg: "1ds.jpg",
+    company: "Zelarsoft Private Limited",
+    designation: "Software Engineer",
+    duration: "June 2023 - Present",
+    companyImg: "zelarsoft.jpg",
     description: (
       <>
         <ul>
@@ -205,10 +184,10 @@ export const workData = [
     ),
   },
   {
-    company: "Fact.MR",
-    designation: "Associate Consultant Level 01",
-    duration: "Dec 2020 - July 2021",
-    companyImg: "fmr.svg",
+    company: "TechDimension IT Solutions LLP",
+    designation: "Associate Software Engineer",
+    duration: "August 2022 - May 2023",
+    companyImg: "techd.jpg",
     description: (
       <>
         <ul>
@@ -305,32 +284,26 @@ export const projectsData = [
 
 export const socialMediaLinks = [
   {
-    href: "https://github.com/vaheedsk36",
+    href: "https://github.com/SaiVittal",
     icon: FaGithub,
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
   },
   {
-    href: "https://www.instagram.com/codersk36/",
-    icon: FaInstagram,
-    backgroundColor: "social.instagram",
-    hoverColor: "social.instagramHover",
-  },
-  {
-    href: "https://www.linkedin.com/in/sk36/",
+    href: "https://www.linkedin.com/in/sai-vittal-0201/",
     icon: FaLinkedin,
     backgroundColor: "social.linkedin",
     hoverColor: "social.linkedinHover",
   },
   {
-    href: "https://twitter.com/codersk36",
+    href: "https://twitter.com/vittal18918",
     icon: FaTwitter,
     backgroundColor: "social.twitter",
     hoverColor: "social.twitterHover",
   },
   {
-    href: "https://codersk36.hashnode.dev/",
-    icon: FaHashnode,
+    href: "mailto:vickysaivittal@gmail.com",
+    icon: BiLogoGmail,
     backgroundColor: "social.hashnode",
     hoverColor: "social.hashnodeHover",
   },

@@ -28,14 +28,14 @@ const Contact = () => {
             <Stack marginTop="4rem">
               <Tooltip label="Send Mail">
                 <Link
-                  href="mailto:vaheedsk36@gmail.com"
+                  href="mailto:vickysaivittal.com"
                   target="_blank"
                   className="contact-text-span"
                   my={3}
                   _hover={{ textDecoration: "none" }}
                 >
                   <Icon as={IoIosMail} mx={2} />
-                  <Text>vaheedsk36@gmail.com</Text>
+                  <Text>vickysaivittal@gmail.com</Text>
                 </Link>
               </Tooltip>
 

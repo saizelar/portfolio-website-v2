@@ -43,7 +43,7 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Sai Vittal</span>, an
+                  I'm <span className="name">Sai Vittal</span>, an
                   enthusiastic software developer. My expertise lies in{" "}
                   <span className="tech">Full Stack Development</span>, where
                   I'm dedicated to creating smooth user experiences and robust

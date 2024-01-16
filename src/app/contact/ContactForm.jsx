@@ -91,7 +91,7 @@ const ContactForm = () => {
       <Card className="contact-form-card" borderRadius="2rem" backgroundColor="white" padding="10px 15px">
         <CardBody>
           <Heading size="md" color="black" my={3}>
-            I&apos;m interested in...
+            I'm interested in...
           </Heading>
           <Flex {...group} wrap="wrap" px={1}>
             {options.map((value) => {

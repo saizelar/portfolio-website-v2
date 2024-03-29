@@ -1,0 +1,22 @@
+
+	name: Your Workflow Name
+	on:
+	  push:
+		branches:
+		  - main
+	jobs:
+	  build:
+		runs-on: ubuntu-latest
+		steps:
+		  - name: Check out code
+			uses: actions/checkout@v2
+		  # Add your workflow steps here
+		  - name: Install dependencies (replace with your package manager if needed)
+        	run: npm install
+
+		  - name: Run tests
+			run: npm test
+
+		  - name: Build project (replace with your build command)
+			run: npm run build
+				
